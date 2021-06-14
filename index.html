@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Carga de estilos -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- CSS de Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Fuente de google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Plantilla normalize -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- CSS personalizados -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <title>REPARA Bit 2.0</title>
+    <style>
+        .swiper-slide {
+          height: 45rem;
+          color: white;
+          background-position: center, center;
+          background-size: cover;
+        }
+  
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+        }
+      </style>
+    </head>
+<body>
+
+    <header>
+        <section id="barra-redes">
+            <div class="container-fluid bg-secondary text-center">
+                <div class="row justify-content-sm-between"> 
+                    <div class="col-12 col-sm-auto text-success">
+                        <i class="fas fa-street-view"></i><span class="h4">Av. Principal #999 C.P. 04480</span>
+                    </div>                   
+                    <div class="col-12 col-sm-auto">
+                        <ul class="redes-sociales list-unstyled d-inline-flex">
+                            <li><a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com//"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com/watch?v=frNjBYk3SRw"><i class="fab fa-youtube"></i></a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="datos-generales" class="d-none d-md-block">
+            <div class="container-fluid bg-primary">
+                <div class="row justify-content-md-between align-items-md-center">
+                    <div class="col-auto">
+                        <a href="#">
+                            <img src="./images/logover02.png" alt="Logo" width="120" height="auto">
+                        </a>
+                    </div>
+                    <div class="col-auto ms-md-auto">
+                        <i class="fas fa-phone-volume fa-2x"></i><span>+55115522</span>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-envelope-open fa-2x"></i><span>reparabit@gmail.com</span>                                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <nav id="menu-navegacion" class="navbar navbar-dark bg-secondary navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido"><span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="contenido" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#Inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Nosotros">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Nuestros servicios"> Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
+                    </ul>            
+                </div>
+            </div>
+        </nav>
+          
+         <!-- Swiper -->
+         <section class="swiper-container mySwiper">
+            <div class="swiper-wrapper text-center">
+              <div class="swiper-slide d-flex justify-content-center align-items-center" style="background-image: url(./images/reparacion.png)">
+                <div class="container">
+                    <div class="row">
+                        <div class="slogan col-12">
+                            <p>Repara Bit</p><p>Nosotros lo Reparamos</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+              <div class="swiper-slide d-flex justify-content-center align-items-center" style="background-image: url(./images/blog02.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="slogan col-12">
+                            <p>Repara Bit</p><p>24hrs/7días</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+              <div class="swiper-slide d-flex justify-content-center align-items-center" style="background-image: url(./images/sopsorte\ tecnico.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="slogan col-12">
+                            <p>Repara Bit</p><p>Soporte Técnico</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+              <div class="swiper-slide d-flex justify-content-center align-items-center" style="background-image: url(./images/principal01.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="slogan col-12">
+                            <p>Repara Bit</p><p>Asesoría Personal</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+              <div class="swiper-slide d-flex justify-content-center align-items-center" style="background-image: url(./images/servicio03.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="slogan col-12">
+                            <p>Repara Bit</p><p>Opiniones del Servicio</p>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+          </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </section>
+    </header>
+    
+    <section id=Nosotros></section>
+    <section class="container"> 
+        <h2 class="text-center mb-4 fw-light">¿Por qué elegirnos?</h2>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-lg-6 mb-3 mb-lg-0">
+                <div class="razones card h-100">                                      
+                    <div class="card-body text-center d-grid align-items-end">
+                        <i class="fas fa-tools text-primary fa-4x"></i>   
+                        <h3 class="card-title">Técnicos altamente capacitados</h3>
+                        <div class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellat in quis! Nisi sed at ratione ea pariatur magnam, dolor harum iure esse repudiandae. Ad modi temporibus sit mollitia assumenda.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 mb-3 mb-lg-0">
+                <div class="razones card h-100">                    
+                    <div class="card-body text-center d-grid align-items-end">
+                        <i class="fas fa-search-dollar text-primary fa-4x"></i>
+                        <h3 class="card-title">El mejor precio</h3>
+                        <div class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellat in quis! Nisi sed at ratione ea pariatur magnam, dolor harum iure esse repudiandae. Ad modi temporibus sit mollitia assumenda.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 mb-3 mb-sm-0">
+                <div class="razones card h-100">                    
+                    <div class="card-body text-center d-grid align-items-end">
+                        <i class="fas fa-user-shield text-primary fa-4x"></i>
+                        <h3 class="card-title">Reparaciones con garantía</h3>
+                        <div class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellat in quis! Nisi sed at ratione ea pariatur magnam, dolor harum iure esse repudiandae. Ad modi temporibus sit mollitia assumenda.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6">
+                <div class="razones card h-100">                    
+                    <div class="card-body text-center d-grid align-items-end">
+                        <i class="fas fa-house-user text-primary fa-4x"></i>
+                        <h3 class="card-title">Reparaciones a domicilio</h3>
+                        <div class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellat in quis! Nisi sed at ratione ea pariatur magnam, dolor harum iure esse repudiandae. Ad modi temporibus sit mollitia assumenda.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container-fluid">
+        <h2 class="text-center mb-4 fw-light">Nuestros servicios</h2>        
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="servicios card h-100">
+                    <img src="./images/servicio01.jpg" alt="Article image" class="card-img-top rounded-pill shadow-lg">
+                    <div class="card-body text-center d-grid align-items-end">
+                        <h3 class="card-title">Recuperación de información</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quibusdam perferendis, quo officiis facilis minus deserunt corrupti fuga, debitis quaerat repudiandae enim autem inventore alias harum asperiores tempora dolores corporis.</div>
+                        <p class="text-primary fw-bolder">Costos Aproximados: $2,000-$20,000</p>
+                        <a class="boton btn btn-success" href="#" role="button">Detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="servicios card h-100">
+                    <img src="./images/servicio02.jpg" alt="Article image" class="card-img-top rounded-pill shadow-lg">
+                    <div class="card-body text-center d-grid align-items-end">
+                        <h3 class="card-title">Mantenimiento de sistemas</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quibusdam perferendis, quo officiis facilis minus deserunt corrupti fuga, debitis quaerat repudiandae enim autem inventore alias harum asperiores tempora dolores corporis.</div>
+                        <p class="text-primary fw-bolder">Costos Aproximados: $500-$10,000</p>
+                        <a class="boton btn btn-success" href="#" role="button">Detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="servicios card h-100">
+                    <img src="./images/servicio03.jpg" alt="Article image" class="card-img-top rounded-pill shadow-lg">
+                    <div class="card-body text-center d-grid align-items-end">
+                        <h3 class="card-title">Actualización del equipo</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quibusdam perferendis, quo officiis facilis minus deserunt corrupti fuga, debitis quaerat repudiandae enim autem inventore alias harum asperiores tempora dolores corporis.</div>
+                        <p class="text-primary fw-bolder">Costos Aproximados: $500-$100,000</p>
+                        <a class="boton btn btn-success" href="#" role="button">Detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="servicios card h-100">
+                    <img src="./images/servicio04.png" alt="Article image" class="card-img-top rounded-pill shadow-lg">
+                    <div class="card-body text-center d-grid align-items-end">
+                        <h3 class="card-title">Zona Gamer</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quibusdam perferendis, quo officiis facilis minus deserunt corrupti fuga, debitis quaerat repudiandae enim autem inventore alias harum asperiores tempora dolores corporis.</div>
+                        <p class="text-primary fw-bolder">Costos Aproximados: $1,000-$60,000</p>                        
+                        <a class="boton btn btn-success" href="#" role="button">Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="pie" class="small bg-secondary text-success">
+        <div class="container py-3 py-sm-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6>Enlaces rápidos</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Nosotros">Nosotros</a></li>
+                        <li><a href="#">Servicios</a></li>                
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6>Information</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Información Legal</a></li>
+                        <li><a href="#">Oportunidades de empleo</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6>Síguenos</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="https://twitter.com/?lang=es"><i class="fab fa-fw fa-twitter"></i> Twitter</a></li>  
+                        <li><a href="https://www.facebook.com/"><i class="fab fa-fw fa-facebook"></i> Facebook</a></li>
+                        <li><a href="https://www.instagram.com//"><i class="fab fa-fw fa-instagram"></i> Instagram</a></li>                
+                        <li><a href="https://www.youtube.com/watch?v=frNjBYk3SRw"><i class="fab fa-fw fa-youtube"></i> YouTube</a></li>                
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <h6>Nuestra Ubicación</h6>
+                    <address>
+                        <strong>Avenida Principal</strong><br>#999<br>C.P.04480, Ciudad de México<br>
+                        <i class="fas fa-fw fa-phone"></i> <a href="tel:+55115522">+55115522</a><br>
+                        <i class="fas fa-fw fa-envelope"></i> <a href="mailto:reparabit@gmail.com">reparabit@gmail.com</a>
+                        </address>
+                </div>
+            </div>
+            <ul class="list-inline mt-2 mb-0 text-center">
+                <li class="list-inline-item">&copy; 2021 USB Design Team</li>
+                <li class="list-inline-item">All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <!-- Carga de scripts JS -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>  
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/mis-scripts.js "></script> 
+</html>
